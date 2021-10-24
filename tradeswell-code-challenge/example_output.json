@@ -1,0 +1,14 @@
+[
+    {"roll-result" : 4,
+     "roll-min" : 1,
+     "roll-max" : 6
+    },
+    {"roll-result" : 7,
+     "roll-min" : 4,
+     "roll-max" : 11
+    },
+    {"roll-result" : 16,
+     "roll-min" : 3,
+     "roll-max" : 42
+    }
+]
