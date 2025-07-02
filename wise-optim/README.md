@@ -6,7 +6,7 @@ The choice cone is the lap where the caution flag turns from yellow to green. At
 
 Here we see the previous running order was 6, 77, 54… And we see that driver 6 went to the outer side of the track while driver 77 went to the inner side. Whether the driver went inner/outer is the line up order.
 
-[example.png](example.png)
+![example.png](example.png)
 
 For example, at the beginning of the lap, for when the flag turns from yellow to green at the end of the lap, the previous running order was recorded.
 
@@ -16,7 +16,7 @@ Next, the driver's choice of inner or outer is determined by measuring their dis
 
 A statistical model to divide the group of cars by distance to the wall. I excluded any cars more than 95 feet from the wall and recorded them as pit stops.
 
-[graph.png](graph.png)
+![graph.png](graph.png)
 
 This has the benefit of assigning some uncertainty to the categories, but, also, it can possibly be used to find restart periods.
 
