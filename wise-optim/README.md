@@ -30,7 +30,7 @@ For example, here is the order on lap 60, the end of the caution period:
 22 2 21 48 19 47 7 17 34 71 6 11 1 12 42 38
 ```
 
-# Here were my initial thought before seeing the data or project
+# Here were my initial thoughts before seeing the data or project
 
 ## Objective
 
