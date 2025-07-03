@@ -20,7 +20,7 @@ A statistical model to divide the group of cars by distance to the wall. I exclu
 
 This has the benefit of assigning some uncertainty to the categories, but, also, it can possibly be used to find restart periods.
 
-After categorizing each driver into the inner/outer category, the next step was to find the line up order. This was done by 2) sorting the the drivers by the running order of the lap where the caution period end and 2) splitting and then stacking the drivers who went 1) inner and 2) outer side by side.
+After categorizing each driver into the inner/outer category, the next step was to find the line up order. This was done by 1) sorting the drivers by the running order of the lap where the caution period ends and 2) splitting and then stacking the drivers who went 1) inner and 2) outer, side by side.
 
 However, it is unclear if the previous running order should show drivers that are not in the top 16 line-up after the green flag.
 
@@ -29,6 +29,8 @@ For example, here is the order on lap 60, the end of the caution period:
 ```
 22 2 21 48 19 47 7 17 34 71 6 11 1 12 42 38
 ```
+
+Car 6 and 12 are not in the top 16 line up for the restart. But they are in the running order after the restart.
 
 # Here were my initial thoughts before seeing the data or project
 
