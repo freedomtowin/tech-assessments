@@ -29,3 +29,35 @@ For example, here is the order on lap 60, the end of the caution period:
 ```
 22 2 21 48 19 47 7 17 34 71 6 11 1 12 42 38
 ```
+
+# Here were my initial thought before seeing the data or project
+
+## Objective
+
+assuming you want the green flag to position -> to analyze the positive and negative outcomes
+
+## Analytics
+
+Does the choice of left/right on a restart have some effect? Is it a psychological effect?
+Do the previous lap positions effect the outcome? Did the driver have an intense overtaking lap?
+Does a the choices of the cars that are behind/ahead have some influence? Is there a strategic advantage?
+Is there a vehicle specification that leads to better outcomes with left/right choices?
+
+## Data
+
+The telemetry data and GPS data can be used to collect a series of data for lap positions and other factors.
+
+Driver feedback can be incorporated (a rating of 1-10) to filter out false positives.
+
+For noisy/dropped GPS data, there are simple to complex solutions. Vehicle tracking from broadcasts would be the most complex (unrecommended due to blurr and similarities between vehicles). Vehicle positions can be estimated with previous speeds and position along the track. A solution could be fine-tuned further with lap positions (either from a data source of extract from the broadcast). Extracting lap positions from the broadcast can be a consistent solution*.
+
+## Models
+
+Models can serve two purposes: 1) to speed up analysis 2) to predict some outcome 3) to explain some behavior 4) to produce higher quality data
+
+Is there automatic green flag extraction? 
+Is there a way to track vehicle positions with rarely dropped GPS data (this is important for a predictive solution).
+Is there a better data source than the broadcast? If not, video processing to remove the commentary sections is a small but useful step.
+
+
+However, an finetuned vehicle detection model can be trained for this dataset! The would entail building a large dataset with a data annotation tool. The solution would also need to map vehicles to driver vehicles based on the visual aspects of the car.
