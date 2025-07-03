@@ -8,7 +8,7 @@ Here we see the previous running order was 6, 77, 54… And we see that driver 6
 
 ![example.png](example.png)
 
-For example, at the beginning of the lap, for when the flag turns from yellow to green at the end of the lap, the previous running order was recorded.
+For example, at the beginning of the lap, for when the flag turns from yellow to green at the end of the lap, marks the previous running order.
 
 Since the data is recorded at the end of the lap, if the flag changes to green on lap 35, then the running order at lap 34 will show the previous running order.
 
